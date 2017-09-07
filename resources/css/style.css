@@ -2,7 +2,8 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding: 10px 20px;
+  padding-bottom: 10px;
+  padding-right: 30px;
 }
 
 span a{
@@ -12,13 +13,14 @@ span a{
 
 nav span {
   display: inline-block;
-  padding-right: 15px;
-  justify-content: flex-end;
+  padding-right: 20px;
 }
 
 #logo{
   color: MediumAquamarine;
   display: flex;
+  padding-left: 20px;
+  width: 650px;
 }
 
 .logo {
@@ -30,4 +32,119 @@ nav span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.column {
+  display: flex;
+  padding: 40px 0px;
+  flex-direction: row;
+  border-top: 1px solid black;
+}
+.column .large {
+  display: flex;
+  flex-direction: row;
+  width: 630px;
+  padding-right: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  order
+}
+
+.column .medium {
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+}
+
+.column .small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+
+}
+.image_div {
+  display: flex;
+  height: 300px;
+}
+#main {
+  background-image: url(../images/img-story-main.png);
+  display: flex;
+  order: 1;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#main h2 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.image_div h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#story1 {
+  background-image: url(../images/img-story-1.png);
+}
+#story2 {
+  background-image: url(../images/img-story-2.png);
+  order: 5;
+}
+#story3 {
+  background-image: url(../images/img-story-3.png);
+  order: 6;
+}
+.story1, .story3{
+  display: flex;
+  width: 299px;
+  flex-direction: column;
+  margin: 20px 15px 10px 0px;
+}
+
+#story2, #story3 {
+  display: flex;
+  width: 299px;
+  margin: 20px 15px 10px 0px;
+}
+.main_story {
+  order: 2;
+}
+.story1 {
+  order: 3;
+}
+
+.story3 {
+  order: 4;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.story h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+.story li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin: 0px;
+  border-bottom: 1px solid black;
+  padding: 12px;
+}
+.story ul{
+  list-style-type: none;
 }
