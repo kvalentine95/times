@@ -1,9 +1,19 @@
+body {
+  margin: 0;
+}
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding-bottom: 10px;
-  padding-right: 30px;
+  padding: 10px 10px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+  z-index: 5;
 }
 
 .container span a{
@@ -28,17 +38,13 @@ header {
   margin-top: 20px;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .column {
   display: flex;
   padding: 40px 0px;
   flex-direction: row;
-  border-top: 1px solid black;
+  top: 70px;
+  position: relative;
+  margin-left: 10px;
 }
 .column .large {
   display: flex;
@@ -161,6 +167,8 @@ footer {
   justify-content: center;
   height: 300px;
   flex-direction: column;
+  top: 70px;
+  position: relative;
 }
 
 #footer_logo {
