@@ -6,12 +6,12 @@ header {
   padding-right: 30px;
 }
 
-span a{
+.container span a{
   color: black;
   text-align: right;
 }
 
-nav span {
+.container nav span {
   display: inline-block;
   padding-right: 20px;
 }
@@ -65,6 +65,7 @@ nav span {
 .image_div {
   display: flex;
   height: 300px;
+  align-items: center;
 }
 #main {
   background-image: url(../images/img-story-main.png);
@@ -79,7 +80,7 @@ p {
 
 #main h2 {
   font-size: 40px;
-  text-align: left;
+  text-align: center;
 }
 
 .image_div h2 {
@@ -147,4 +148,32 @@ p {
 }
 .story ul{
   list-style-type: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+  justify-content: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+#footer_logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer a {
+  color: black;
+  padding: 0px 10px;
+}
+#final {
+  padding-top: 20px;
 }
